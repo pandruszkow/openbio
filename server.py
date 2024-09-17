@@ -12,9 +12,11 @@ REDIS_URL = 'redis://default:AefTAAIjcDExMDY1YjFiYmRjNGY0MzM0YjM5OGIzY2E4ZmZjNTk
 redis_client = redis.StrictRedis.from_url(REDIS_URL, decode_responses=True)
 
 def compute_meta():
+	pass
 	# stub - static in DB for now
 
 def to_llm_english():
+	pass
 	# stub - will dress up records returned in proper English
 
 @app.route('/health', methods=['GET'])
